@@ -36,8 +36,10 @@ Agora precisamos acessar o diretório onde esta o arquivo `buildDockerImage.sh`:
 
 Para gerar a imagem, em um terminal neste diretório vamos executar o comando:
 
+_observação: tem um espaço antes do ./..._
+
 ```
-./buildDockerImage.sh -v 19.3.0 -e
+ ./buildDockerImage.sh -v 19.3.0 -e
 ```
 
 Este comando começará o processo de criar a imagem do oracle para o docker, é um processo demorado, pode parecer que travou, mas realmente demorar para processar.
