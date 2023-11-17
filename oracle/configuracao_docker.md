@@ -117,3 +117,10 @@ docker start oracle19c
 ### Uso
 
 Para usar o banco de dados, apenas faça a configuração no SGDB de sua escolha e na aplicação que este o banco de dados!
+
+
+
+
+docker  run --name oracle19c -p 1521:1521 -p 5500:5500 -v  
+/Users/alexzaballa/Downloads/Docker/oradata:/opt/oracle/oradata  
+oracle/database:19.3.0-ee
